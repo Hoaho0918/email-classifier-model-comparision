@@ -3,7 +3,7 @@ import re
 from pathlib import Path
 
 # Load the raw dataset
-df = pd.read_csv("data/spam.csv", encoding="latin-1")
+df = pd.read_csv("data/raw data.csv", encoding="latin-1")
 
 # Rename the two columns: v1 = spam/ham labels, v2 = content of message
 df = df[["v1", "v2"]].rename(columns={"v1": "Label", "v2": "Content"})
