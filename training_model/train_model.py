@@ -72,7 +72,7 @@ print(f"Optimal n_estimators = {optimal_estimators}")
 print(f"Test accuracies: {[f'{s:.3f}' for s in test_scores2.mean(axis=1)]}")
 
 plt.tight_layout()
-plt.savefig("/workspaces/email-classifier-xgboost/models/optimization_curves.png")
+plt.savefig("/workspaces/email-classifier-xgboost/training_model/optimization_curves.png")
 plt.show()
 
 # 3. TRAIN FINAL MODEL with COMPUTED optimal values
