@@ -1,0 +1,3 @@
+Model,Prediction,Spam Probability,Confidence
+XGBoost,HAM,0.008,99.2%
+Naive Bayes,HAM,0.003,99.7%
